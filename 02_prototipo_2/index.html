@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NASA 70 - Archive</title>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-wrapper">
+  <header>
+    <div class="logo">
+      <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg">
+        <use href="logo.svg#Layer_1" xlink:href="logo.svg"></use>
+      </svg>
+    </div>
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Archive</a>
+    </nav>
+  </header>
+  <main>
+    <section class="about">
+      <h1>About</h1>
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+    </section>
+    <section class="archive-header">
+      <h1>Archive</h1>
+      <div class="controls">
+        <button id="btn-tags" class="parallelogram"><span>Tags</span></button>
+        <div class="dropdown-container">
+          <button id="btn-sort" class="parallelogram"><span>Sort by <small class="sort-arrow">▼</small></span></button>
+          <div id="sort-menu" class="dropdown-content">
+            <div class="sort-option" data-sort="author">Author</div>
+            <div class="sort-option" data-sort="title">Title</div>
+            <div class="sort-option" data-sort="date">Date</div>
+          </div>
+        </div>
+        <div class="search-container parallelogram">
+          <input type="text" id="search-input" placeholder="Search">
+        </div>
+      </div>
+      <div id="active-tags" class="active-tags-container"></div>
+    </section>
+    <div id="archive-grid" class="table-container"></div>
+  </main>
+</div>
+
+<div id="modal-tags" class="modal">
+  <div class="modal-box">
+
+    <div class="modal-fixed">
+      <div class="modal-top-row">
+        <div class="modal-search-wrap parallelogram-modal">
+          <span class="search-icon">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="6.5" cy="6.5" r="5.5" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="10.5" y1="10.5" x2="15" y2="15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <input type="text" id="modal-search-input" placeholder="Search" class="modal-search-input">
+        </div>
+        <button id="close-modal" class="close-btn parallelogram-close"><span class="close-inner">✕</span></button>
+      </div>
+      <div id="modal-active-tags" class="modal-active-tags"></div>
+    </div>
+
+    <div class="modal-scrollable">
+      <div id="tags-list" class="tags-list"></div>
+    </div>
+
+  </div>
+</div>
+
+<script src="sketch.js"></script>
+</body>
+</html>
