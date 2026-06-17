@@ -94,30 +94,27 @@ Per quanto riguarda il logo, si è scelto di adottare uno stile tecnico e geomet
 
 
 ## Tecnologia usata
-Nunc consequat interdum varius sit amet mattis vulputate. Vehicula ipsum a arcu cursus vitae congue. Odio ut sem nulla pharetra. Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus. Nunc aliquet bibendum enim facilisis gravida neque convallis a. Lacus sed turpis tincidunt id aliquet risus feugiat.
+La tecnologia usata per questo sito archivio è stata:
+
+- HTML e CSS: struttura e stile del sito web
+- JavaScript (p5.js): interazioni del sito.
+
+Di seguito è riportata la sezione di codice JavaScript che gestisce il filtraggio dei progetti in base ai tag nella pagina dell'archivio:
 
 
 ```JavaScript
-const image = new Image();
-image.onload = () => {
-	gl.bindTexture(gl.TEXTURE_2D, texture);
-	gl.texImage2D(
-		gl.TEXTURE_2D,
-		level,
-		internalFormat,
-		srcFormat,
-		srcType,
-		image
-	);
-	if (isPowerOf2(image.width) && isPowerOf2(image.height)) {
-		gl.generateMipmap(gl.TEXTURE_2D);
-	} else {
-		gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
-		gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
-		gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
-	}
-};
-image.src = url;
+function applyFilters() {
+    if (activeTags.size === 0) {
+        filteredProjects = [...allProjects];
+    } else {
+        let tagsArray = [...activeTags];
+        filteredProjects = allProjects.filter(p => p.tags && tagsArray.some(t => p.tags.includes(t)));
+    }
+    currentPage = 1; 
+    if (activeSort) sortProjects(activeSort);
+    else renderArchive();
+    updateActiveTagsUI();
+}
 ```
 
 ## Target e contesto d’uso
