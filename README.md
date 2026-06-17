@@ -32,9 +32,11 @@ L’esperienza utente inizia dalla home page, che presenta una breve descrizione
 <img width="1711" height="2821" alt="NASA 70 - Home" src="https://github.com/user-attachments/assets/719939c3-78ca-4de8-ae7c-4f9a44becb15" />
 
 Nella stessa pagina è presente la sezione Playlists of the Day, in cui vengono proposte quotidianamente tre raccolte basate su tematiche differenti. Ciascuna playlist include 9 progetti dell'archivio legati al tema del giorno, con lo scopo di guidare nella navigazione l'utente indeciso attraverso una selezione mirata di contenuti.
-
+<img width="3422" height="4996" alt="NASA 70 - Playlist" src="https://github.com/user-attachments/assets/7e33ed68-785a-4494-826a-8c3ee9da62d2" />
 
 L'accesso all'archivio completo è fruibile tramite il menu di navigazione, il footer o l'apposito pulsante posizionato sotto il testo descrittivo della home. All'interno dell'archivio, un'interfaccia dedicata permette di gestire i tag e l'ordinamento dei progetti in base a titolo, autore e data, integrando inoltre una barra di ricerca interna che opera sui medesimi criteri. Infine, le card dei progetti mostrano la relativa descrizione testuale tramite un effetto mouse-over; questa scelta progettuale è stata adottata per mantenere l'interfaccia pulita, evitando di sovraccaricare visivamente le schede con troppe informazioni simultanee. In aggiunta, l'esplorazione dei contenuti nell'archivio è organizzata tramite una paginazione posta in fondo alla schermata, dove ogni pagina ospita un massimo di 30 progetti.
+<img width="3422" height="5116" alt="NASA 70 - Archive" src="https://github.com/user-attachments/assets/4c19d881-0c59-4335-a99b-807f346c30b5" />
+<img width="1728" height="995" alt="Screenshot 2026-06-17 alle 11 52 17" src="https://github.com/user-attachments/assets/bbac30ed-e945-4ffe-a87f-fc870c3e9658" />
 
 
 ## Tecnologia usata
