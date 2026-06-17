@@ -16,7 +16,8 @@ NASA 70 Archive è un sito web archivio progettato per raccogliere centinaia di 
 ## Riferimenti progettuali
 I principali riferimenti progettuali per lo sviluppo del sito sono stati l'archivio digitale Europeana e una proposta visiva individuata su Pinterest. Nello specifico, Europeana è stato utilizzato come modello per l'organizzazione dell'archivio, in particolare per l'impostazione delle card e per il sistema di tag. Dal punto di vista estetico e visivo, invece, il progetto si è ispirato all'interfaccia web di un museo.
 
-![Uploading Screenshot 2026-06-17 alle 10.10.09.png…]()
+<img width="1728" height="995" alt="Screenshot 2026-06-17 alle 10 10 09" src="https://github.com/user-attachments/assets/76a40ecd-b602-4214-bc7a-e83112fce8db" />
+
 
 <img width="736" height="1203" alt=" -2" src="https://github.com/user-attachments/assets/84f805a2-f6e1-4c67-a3d5-915daec8d9be" />
 
