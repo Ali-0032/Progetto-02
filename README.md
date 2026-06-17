@@ -6,7 +6,7 @@ Progetto 2: Un piccolo passo per l'uomo, un grande balzo per l'umanità.
 
 # NASA 70 Archive
 Autore: Alissa Bionda \
-[NASA 70 Archive](https://github.com/ixd-supsi/2026/tree/main/esempi/es06_array_7)
+[NASA 70 Archive](https://ali-0032.github.io/NASA_70_Archive/02_prototipo_2/home.html)
 
 
 ## Introduzione e tema
