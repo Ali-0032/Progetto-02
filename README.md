@@ -28,7 +28,13 @@ L’estetica dell'interfaccia si ispira al brutalismo digitale, in particolare p
 Infine, il carattere tipografico usato per il sito web è l’Helvetica, utilizzato nelle versioni Bold e Regular in quanto font istituzionale della NASA.
 
 ### Modalità di interazione:
+L’esperienza utente inizia dalla home page, che presenta una breve descrizione volta a contestualizzare i contenuti e le finalità dell'archivio.
+<img width="1711" height="2821" alt="NASA 70 - Home" src="https://github.com/user-attachments/assets/719939c3-78ca-4de8-ae7c-4f9a44becb15" />
 
+Nella stessa pagina è presente la sezione Playlists of the Day, in cui vengono proposte quotidianamente tre raccolte basate su tematiche differenti. Ciascuna playlist include 9 progetti dell'archivio legati al tema del giorno, con lo scopo di guidare nella navigazione l'utente indeciso attraverso una selezione mirata di contenuti.
+
+
+L'accesso all'archivio completo è fruibile tramite il menu di navigazione, il footer o l'apposito pulsante posizionato sotto il testo descrittivo della home. All'interno dell'archivio, un'interfaccia dedicata permette di gestire i tag e l'ordinamento dei progetti in base a titolo, autore e data, integrando inoltre una barra di ricerca interna che opera sui medesimi criteri. Infine, le card dei progetti mostrano la relativa descrizione testuale tramite un effetto mouse-over; questa scelta progettuale è stata adottata per mantenere l'interfaccia pulita, evitando di sovraccaricare visivamente le schede con troppe informazioni simultanee. In aggiunta, l'esplorazione dei contenuti nell'archivio è organizzata tramite una paginazione posta in fondo alla schermata, dove ogni pagina ospita un massimo di 30 progetti.
 
 
 ## Tecnologia usata
