@@ -1,4 +1,4 @@
-SUPSI 2026  
+<img width="2479" height="497" alt="logo" src="https://github.com/user-attachments/assets/e503f8cd-3757-4962-b357-9763a058aba7" />SUPSI 2026  
 Corso d’interaction design, CV429.01  
 Docenti: A. Gysin, G. Profeta  
 
@@ -77,6 +77,12 @@ L'accesso all'archivio completo è fruibile tramite il menu di navigazione, il f
 </table>
 
 <br />
+
+
+## Logo
+Per quanto riguarda il logo, si è scelto di adottare uno stile tecnico e geometrico che richiama coerentemente l'identità visiva del sito archivio, enfatizzando il rigore e la precisione che caratterizzano i dati scientifici della NASA.
+
+
 
 
 ## Tecnologia usata
