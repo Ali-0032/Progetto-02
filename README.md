@@ -118,6 +118,4 @@ function applyFilters() {
 ```
 
 ## Target e contesto d’uso
-Sed enim ut sem viverra aliquet eget sit. Iaculis at erat pellentesque adipiscing commodo. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. At tempor commodo ullamcorper a lacus vestibulum sed arcu. Ipsum faucibus vitae aliquet nec ullamcorper sit. Tempus quam pellentesque nec nam aliquam sem et tortor. Turpis egestas sed tempus urna et pharetra pharetra massa. Ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel.
-
-[<img src="doc/munari.jpg" width="300" alt="Supplemento al dizionario italiano">]()
+Il target di riferimento per questo progetto è un pubblico generalista interessato all'astronomia. Il contesto d'uso è di tipo intrattenimento ed educativo, in quanto l'archivio raccoglie ed espone progetti basati su dati scientifici reali con la finalità di offrire un'esplorazione stimolante e piacevole.
