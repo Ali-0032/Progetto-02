@@ -1,4 +1,4 @@
-¨SUPSI 2026  
+SUPSI 2026  
 Corso d’interaction design, CV429.01  
 Docenti: A. Gysin, G. Profeta  
 
@@ -14,7 +14,11 @@ NASA 70 Archive è un sito web archivio progettato per raccogliere centinaia di 
 
 
 ## Riferimenti progettuali
-Dolor sit amet consectetur adipiscing elit duis tristique. Sociis natoque penatibus et magnis dis parturient montes nascetur. Est sit amet facilisis magna. Tellus rutrum tellus pellentesque eu. Dictum sit amet justo donec enim. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Sed faucibus turpis in eu mi bibendum neque egestas congue. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Dolor magna eget est lorem ipsum dolor. Sit amet mattis vulputate enim nulla. Elit pellentesque habitant morbi tristique senectus et. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa.
+I principali riferimenti progettuali per lo sviluppo del sito sono stati l'archivio digitale Europeana e una proposta visiva individuata su Pinterest. Nello specifico, Europeana è stato utilizzato come modello per l'organizzazione dell'archivio, in particolare per l'impostazione delle card e per il sistema di tag. Dal punto di vista estetico e visivo, invece, il progetto si è ispirato all'interfaccia web di un museo.
+
+![Uploading Screenshot 2026-06-17 alle 10.10.09.png…]()
+
+<img width="736" height="1203" alt=" -2" src="https://github.com/user-attachments/assets/84f805a2-f6e1-4c67-a3d5-915daec8d9be" />
 
 
 ## Design dell’interfaccia e modalità di interazione
